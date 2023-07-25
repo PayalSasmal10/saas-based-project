@@ -1,0 +1,12 @@
+@import "./variable";
+
+@mixin flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    @include flexBox();
+    background-color: $primary-color;
+}
